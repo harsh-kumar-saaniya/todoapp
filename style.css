@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(11, 204, 218);
+}
+
+
+.app-box{
+    width: 60%;
+    height:75vh;
+    background-color: #263238;
+    color: white;
+    margin-left: 19%;
+    margin-top: 6%;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 4px #263238;
+}
+
+.app_heading > h6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 45px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+.app_heading p{
+    font-size: 13px;
+    color: aquamarine;
+    display: flex;
+    position: relative;
+    bottom: 55px;
+    left:58px;
+    text-align: left;
+}
+
+.todo_work_place{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    
+}
+.todoDefine{
+    background-color: #ffff;
+    width:27%;
+    text-align: left;
+    position: absolute;
+    left: 320px;
+    bottom:528px;
+    height: 36px;
+    border: 0px solid #fff;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+
+#btn1{
+    position: relative;
+    bottom: 50px;
+    right: 220px;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    background-color:rgb(11, 204, 218);
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+#btn1:hover{
+    background-color: #263238;
+}
+
+
+#btn2{
+    position: relative;
+    bottom: 50px;
+    right: 215px;
+    width: 100px;
+    color: #fff;
+    background-color:rgb(11, 204, 218);
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+#btn2:hover{
+    background-color: #263238;
+}
+ul#list{
+    text-decoration: none;
+    /* list-style-type: none; */
+    width: 300px;
+    height: 300px;
+    /* background-color: violet; */
+    position: relative;
+    left: 80px;
+    /* background-color: pink; */
+
+}
+
+li{
+    text-align: left;
+    color: #fff;
+    position: relative;
+        top: 15px;
+
+}
+
+
+li::after{
+    content: '';
+    width: 570px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 50%;
+
+} 
+li::before{
+    margin-top:50px;
+}
+
+.editBtn{
+    background:none;
+    border: none;
+
+}
+
+.fa-trash{
+    color: #fff;
+    position: absolute;
+    margin-left: 400px;
+    bottom: 5px;
+    transition: 0.5s;
+}
+
+.fa-pencil{
+    color: #fff;
+    position: absolute;
+    margin-left: 420px;
+    bottom: 5px;
+    transition: 0.5s;
+    
+}
+
+.fa-trash:hover{
+    color: aqua;
+
+}
+.fa-pencil:hover{
+    color: aqua;
+}
+
+
+/* 
+@media (max-width: 800px){
+    body{
+        background-color: blueviolet;
+    }
+} */
